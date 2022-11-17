@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Online Canteen</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 
 	<link rel="stylesheet"
   href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -37,21 +38,27 @@
 	</header>
 
 
-    <section>
-
-
-
-
-
+       <section class="contact">
+        <div class="container contact__container">
+            <form action="https://formspree.io/f/xqkjwalb" method="POST" class="contact__form">
+                <div class="form__name">
+                    <input type="text" name="First name" placeholder="First name" required>
+                    <input type="text" name="Last name" placeholder="Last name" required>
+                </div>
+                <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                <textarea name="Message" rows="7" placeholder="Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
     </section>
 
 
 
 
-    	<!---contact--->
+    	<!---footer--->
 	<section class="contact" id="contact">
 		<div class="contact-box">
-			<h3>FoodEx</h3>
+			<h3>Online Canteen</h3>
 			<h5>Connect With Us</h5>
 			<div class="social">
 				<a href="#"><i class='bx bxl-facebook' ></i></a>
@@ -81,15 +88,15 @@
 
 		<div class="contact-box address">
 			<h3>Conatct</h3>
-			<i class='bx bxs-map' ><span>1294 Mockingbird Hill, NYC</span></i>
-			<i class='bx bxs-envelope' ><span>hello@yourmail.com</span></i>
+			<i class='bx bxs-map' ><span>NDRVMCC Online Canteen</span></i>
+			<i class='bx bxs-envelope' ><span>NDRVMCC@gmail.com.ph</span></i>
 			<i class='bx bxs-phone' ><span>(00) 123 456 789</span></i>
 		</div>
 
 	</section>
 
 	<div class="end-text">
-		<p>© late 2022 Tahmid Ahmed. All Rights Reserved.</p>
+		<p>© NDRVMCC.</p>
 	</div>
 
 	<!---custom js link--->

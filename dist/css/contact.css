@@ -1,0 +1,41 @@
+.contact__container {
+    background-color: #fff;
+    padding: 15rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+    height: 10rem;
+    margin: 7rem auto;
+    border-radius: 1rem;
+}
+
+/*============ FORM ============*/
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    margin: -9rem;
+}
+
+.form__name {
+    display: flex;
+    gap: 1.1rem;
+}
+
+.contact__form input[type="text"] {
+    width: 100%;
+}
+
+input, 
+textarea {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    background: var(--color-bg);
+}
+
+.contact__form .btn {
+    width: max-content;
+    margin-top: .1rem;
+    cursor: pointer;
+}
